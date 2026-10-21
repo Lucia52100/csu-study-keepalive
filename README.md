@@ -39,7 +39,7 @@
 把下面的地址发给别人，浏览器会直接弹出 Tampermonkey 安装页：
 
 ```
-https://raw.githubusercontent.com/lucia52100/csu-study-keepalive/main/csu-study-keepalive.user.js
+https://raw.githubusercontent.com/Lucia52100/csu-study-keepalive/main/csu-study-keepalive.user.js
 ```
 
 ## 使用说明
