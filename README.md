@@ -36,10 +36,10 @@
 
 ### 方式三：从 GitHub 一键安装
 
-发布到 GitHub 后，把下面的地址发给别人，浏览器会直接弹出 Tampermonkey 安装页：
+把下面的地址发给别人，浏览器会直接弹出 Tampermonkey 安装页：
 
 ```
-https://raw.githubusercontent.com/<你的用户名>/csu-study-keepalive/main/csu-study-keepalive.user.js
+https://raw.githubusercontent.com/lucia52100/csu-study-keepalive/main/csu-study-keepalive.user.js
 ```
 
 ## 使用说明
@@ -123,24 +123,6 @@ csu-study-keepalive/
 ├─ README.md
 ├─ LICENSE
 └─ .gitignore
-```
-
-## 发布到 GitHub
-
-```bash
-git init
-git add .
-git commit -m "feat: CSU 学习页面保活助手 v1.1.0"
-git branch -M main
-git remote add origin https://github.com/<你的用户名>/csu-study-keepalive.git
-git push -u origin main
-```
-
-推送成功后，建议在脚本的元数据块里补上更新地址，Tampermonkey 就能自动检查新版本：
-
-```js
-// @updateURL    https://raw.githubusercontent.com/<你的用户名>/csu-study-keepalive/main/csu-study-keepalive.user.js
-// @downloadURL  https://raw.githubusercontent.com/<你的用户名>/csu-study-keepalive/main/csu-study-keepalive.user.js
 ```
 
 ## 免责声明
