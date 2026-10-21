@@ -1,0 +1,4 @@
+*.bat text eol=crlf
+*.user.js text eol=lf
+*.html text eol=lf
+*.md text eol=lf
